@@ -1,0 +1,114 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12-Oct-2017, 12:41:44
+    Author     : hp 8460p
+*/
+body{
+    background: whitesmoke; 
+}
+.wrapper{
+    padding-top: 150px;
+}
+.bigtext{
+    font-size: 50px
+}
+.breadth{
+    width: 220px;
+    font-size: 20px;
+    height: 30px;
+}
+.scale{
+    float: right;
+    text-align: center;
+    background: #ddd;
+}
+
+.grid{
+    font-weight: bold;
+    width: 9.5%;
+    height: 100%;
+    font-size: 2em;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;    
+}
+.grid:last-child{   
+    border-right: none;
+}
+.number-box{
+    font-weight: bold;
+    width: calc(100% - 10px);
+    margin: auto;
+    border: 5px solid #9ecaed !important;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 30px;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.btn-1{
+    border: 5px solid #ddd !important;
+    background: brown;
+    position: absolute;
+}
+.btn-2{
+    border: 5px solid #ddd !important;
+    background: red;
+    position: absolute;
+}
+.btn-3{
+    border: 5px solid #ddd !important;
+    background: orange;
+    position: absolute;
+}
+.btn-4{
+    border: 5px solid #ddd !important;
+    background: pink;
+    position: absolute;
+}
+.btn-5{
+    border: 5px solid #ddd !important;
+    background: lightskyblue;
+    position: absolute;
+    
+}
+.btn-6{
+    border: 5px solid #ddd !important;
+    background: blue;
+    position: absolute;
+}
+.btn-7{
+    border: 5px solid #ddd !important;
+    background: yellow;
+    position: absolute;
+}
+.btn-8{
+    border: 5px solid #ddd !important;
+    background: yellowgreen;
+    position: absolute;
+}
+.btn-9{
+    border: 5px solid #ddd !important;
+    background: green;
+    position: absolute;
+}
+.btn-10{
+    border: 5px solid #ddd !important;
+    background: navy;
+    position: absolute;
+}
+.msgBack{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: 1s;
+    word-spacing: .5em;
+}

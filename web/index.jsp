@@ -9,11 +9,11 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link href="scripts/helpers.css" rel="stylesheet" type="text/css"/>
-        <link href="scripts/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <link href="scripts/dialogStyles.css" rel="stylesheet" type="text/css"/>
-        <script src="scripts/jquery-1.6.2.min.js" type="text/javascript"></script>
-        <link href="myCss.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/styles/helpers.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/styles/dialogStyles.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/styles/myCss.css" rel="stylesheet" type="text/css"/>
+        <script src="assets/scripts/jquery-1.6.2.min.js" type="text/javascript"></script>
         <title>JSP Page</title>
     </head>
     <body class="noborder nomarginright nopaddingright ">
@@ -62,6 +62,6 @@
                 </div>
             </div>
         </div>
-        <script src="NGmainscript.js" type="text/javascript"></script>
+        <script src="assets/scripts/NGmainscript.js" type="text/javascript"></script>
     </body>
 </html>
